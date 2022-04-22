@@ -1,0 +1,101 @@
+{
+  "name": "pf2e-vanguard",
+  "title": "PF2e Vanguard",
+  "description": "A module to implement the Vanguard class & associated options.",
+  "author": "Delioth",
+  "version": "1.0",
+  "compatibleCoreVersion": "9",
+  "minimumCoreVersion": "9",
+  "packs": [
+    {
+      "label": "Vanguard - Actions",
+      "type": "Item",
+      "name": "vanguard-actions",
+      "path": "./packs/vanguard-actions.db",
+      "system": "pf2e",
+      "package": "pf2e-vanguard",
+      "private": false
+    },
+    {
+      "label": "Vanguard - Characters",
+      "type": "Actor",
+      "name": "vanguard-characters",
+      "path": "./packs/vanguard-characters.db",
+      "system": "pf2e",
+      "package": "pf2e-vanguard",
+      "private": false
+    },
+    {
+      "label": "Vanguard - Class",
+      "type": "Item",
+      "name": "vanguard-class",
+      "path": "./packs/vanguard-class.db",
+      "system": "pf2e",
+      "package": "pf2e-vanguard",
+      "private": false
+    },
+    {
+      "label": "Vanguard - Equipment",
+      "type": "Item",
+      "name": "vanguard-equipment",
+      "path": "./packs/vanguard-equipment.db",
+      "system": "pf2e",
+      "package": "pf2e-vanguard",
+      "private": false
+    },
+    {
+      "label": "Vanguard - Features",
+      "type": "Item",
+      "name": "vanguard-features",
+      "path": "./packs/vanguard-features.db",
+      "system": "pf2e",
+      "package": "pf2e-vanguard",
+      "private": false
+    },
+    {
+      "label": "Vanguard - Feats",
+      "type": "Item",
+      "name": "vanguard-feats",
+      "path": "./packs/vanguard-feats.db",
+      "system": "pf2e",
+      "package": "pf2e-vanguard",
+      "private": false
+    },
+    {
+      "label": "Vanguard - Effects",
+      "type": "Item",
+      "name": "vanguard-effects",
+      "path": "./packs/vanguard-effects.db",
+      "system": "pf2e",
+      "package": "pf2e-vanguard",
+      "private": false
+    }
+  ],
+  "flags": {
+    "pf2e-vanguard": {
+      "pf2e-homebrew": {
+        "equipmentTraits": {
+          "redoubt": {
+            "label": "Redoubt",
+            "description": "This armor is cleverly angled, allowing you to predict incoming assaults rather than react to them. While wearing redoubt armor, you can use your Intelligence modifier for your Reflex saves and DC instead of your Dexterity modifier. If the armor has a maximum Dexterity bonus greater than 0, you may use your Intelligence bonus in place of Dexterity for Armor Class as well, subject to the maximum Dexterity bonus as normal."
+          },
+          "anchor": {
+            "label": "Anchor",
+            "description": "This armor always weighs you down. The armor's check penalty applies to Athletics checks to Swim and Climb, even if you meet the required Strength score"
+          },
+          "layered": {
+            "label": "Layered",
+            "description": "This armor is composed of layers, and notes an additional armor specialization. If you have armor specialization, you gain the effects of both the armor's normal group and the group listed in the layered trait."
+          }
+        },
+        "featTraits": {
+          "vanguard": "Vanguard"
+        }
+      }
+    }
+  },
+  "system": [
+    "pf2e"
+  ],
+  "minimumSystemVersion": "3.8"
+}
