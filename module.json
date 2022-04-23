@@ -3,7 +3,7 @@
   "title": "PF2e Vanguard",
   "description": "A module to implement the Vanguard class & associated options.",
   "author": "Delioth",
-  "version": "1.0",
+  "version": "1.0.1",
   "compatibleCoreVersion": "9",
   "minimumCoreVersion": "9",
   "packs": [
