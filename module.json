@@ -97,5 +97,8 @@
   "system": [
     "pf2e"
   ],
+  "url": "https://github.com/Delioth/foundry-pf2e-vanguard",
+  "manifest": "https://raw.githubusercontent.com/Delioth/foundry-pf2e-vanguard/main/module.json",
+  "download": "https://github.com/Delioth/foundry-pf2e-vanguard/archive/refs/heads/main.zip",
   "minimumSystemVersion": "3.8"
 }
